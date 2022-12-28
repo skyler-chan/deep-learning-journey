@@ -12,4 +12,19 @@
 - Robotics:: Handling objects that are challenging to locate (e.g., transparent, shiny, lacking texture) or hard to pick up
 - Other applications:: Financial and logistical forecasting, text to speech, and much more...
 
-- test
+# History of Neural Networks
+
+- Warren McCulloch + Walter Pitts created a math model for an artif neuron, called threshold logic
+
+- Perceptron: can recognize simple shapes
+
+- Parallel Distributed Processing (PDP), requires:
+
+1. Set of processing units
+2. State of activation
+3. Output f(x) for each unit
+4. Pattern of connectivity among units
+5. Propagation rule for patterns thru network of connectivities
+6. Activation rule for combining inputs impinging on a unit, w current state of unit product an output for it
+7. Learning rule - patterns of connectivity modified by experience
+8. Environment - that system must operate within
