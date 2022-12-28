@@ -28,3 +28,21 @@
 6. Activation rule for combining inputs impinging on a unit, w current state of unit product an output for it
 7. Learning rule - patterns of connectivity modified by experience
 8. Environment - that system must operate within
+
+# How to learn DL
+
+- Read content/textbook/writing, watch lecture videos while following along with Jupyter notebooks
+- Learn through examples, then figure out how it works underneath
+- Use DL to solve own problems
+- Techniques >> caring about which software/library to use
+
+# Glossary
+
+GPU: Graphics Processing Unit/graphics card
+
+- Handle thousands of single tasks at same time
+- GPUs run NNs 100x > regular CPUs
+
+Jupyter Notebook:
+
+- Piece of software with formatted text, code, images, videos, all in an interactive document
