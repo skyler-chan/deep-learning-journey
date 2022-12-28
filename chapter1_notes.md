@@ -46,3 +46,15 @@ GPU: Graphics Processing Unit/graphics card
 Jupyter Notebook:
 
 - Piece of software with formatted text, code, images, videos, all in an interactive document
+
+Full vs Stripped Notebooks:
+
+- Full: with prose/outputs
+- Stripped: without prose/ouputs
+
+# Building our first model - Dog vs Cat Classifier
+
+## How?
+
+1. Download a dataset of dog, cat photos
+2. Train a model using dataset (bunch of images, emails, sounds - any data)
