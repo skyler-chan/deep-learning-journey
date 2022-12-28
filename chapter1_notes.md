@@ -11,3 +11,5 @@
 - Playing games:: Chess, Go, most Atari video games, and many real-time strategy games
 - Robotics:: Handling objects that are challenging to locate (e.g., transparent, shiny, lacking texture) or hard to pick up
 - Other applications:: Financial and logistical forecasting, text to speech, and much more...
+
+- test
