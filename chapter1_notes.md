@@ -1,6 +1,6 @@
-#Notes from Fast AI course
+# Notes from Fast AI course
 
-******\*\*******Tasks that use Deep Learning******\*\*******
+**\*\***\*\***\*\***Tasks that use Deep Learning**\*\***\*\***\*\***
 
 - Natural language processing (NLP):: Answering questions; speech recognition; summarizing documents; classifying documents; finding names, dates, etc. in documents; searching for articles mentioning a concept
 - Computer vision:: Satellite and drone imagery interpretation (e.g., for disaster resilience); face recognition; image captioning; reading traffic signs; locating pedestrians and vehicles in autonomous vehicles
