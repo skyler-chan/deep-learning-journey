@@ -52,7 +52,7 @@ Chapter 1 of the Fast AI Practical Deep Learning course introduces the concept o
   -- To prevent overfitting, we use regularization techniques, e.g. adding a penalty to loss function, or dropout - randomly removes nodes from model during training.
 
 - How do we find the sweet spot b/w over/underfitting?
-  -- This is the "bias-variance tradeoff"
+  > - This is the "bias-variance tradeoff"
 
 ---
 
