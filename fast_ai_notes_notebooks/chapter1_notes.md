@@ -134,10 +134,10 @@ Examples of `splitters` and `get_y`:
 
 - docs.fast.ai -> tutorials -> DataBlock tutorials
 
-### How do we find the sweet spot between
-
 # Best Practices
 
 - Display your data once you init them, so you can check if they look reasonable (e.g. displaying thumbnail of a bird)
 
-# ChatGPT Logs
+- call `show_results()` to check results (fastai library)
+
+- How to do slides in notebooks - use RISE
