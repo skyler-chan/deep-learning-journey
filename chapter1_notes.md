@@ -74,3 +74,16 @@ Full vs Stripped Notebooks:
 ### How do we know if a model is good?
 
 - Look at Error Rate (prop of images that were incorrectly ID'd)
+
+### What is a DataBlock?
+
+- FastAI boils down common traits of data into 5 things:
+
+1. _blocks_ Kind of i/o (e.g. `ImageBlock`, `CategoryBlock`)
+2. _get_items_ Function (that returns a list)
+3. _splitter_ A validation center (randomly set aside 20% of data = `valid_pct=0.2`)
+4.
+
+# Best Practices
+
+- Display your data once you init them, so you can check if they look reasonable (e.g. displaying thumbnail of a bird)
