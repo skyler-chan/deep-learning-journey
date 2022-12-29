@@ -1,6 +1,11 @@
-# Notes from Fast AI course
+# Notes from Chapter 1 Fast AI Course
 
-**\*\***\*\***\*\***Tasks that use Deep Learning**\*\***\*\***\*\***
+# Sources
+
+1. Main site: https://course.fast.ai/Lessons/lesson1.html#resources
+2. Video: https://www.youtube.com/watch?v=8SF_h3xF3cE
+
+# Why Deep Learning - Use Cases
 
 - Natural language processing (NLP):: Answering questions; speech recognition; summarizing documents; classifying documents; finding names, dates, etc. in documents; searching for articles mentioning a concept
 - Computer vision:: Satellite and drone imagery interpretation (e.g., for disaster resilience); face recognition; image captioning; reading traffic signs; locating pedestrians and vehicles in autonomous vehicles
@@ -54,6 +59,13 @@ Full vs Stripped Notebooks:
 
 # Building our first model - Dog vs Cat Classifier
 
+## What do we need to train a model?
+
+1. Data
+2. Labels
+3. Loss function to measure performance of the model
+4. Optimizer to update parameters
+
 ## How?
 
 1. Download a dataset of dog, cat photos
@@ -79,10 +91,22 @@ Full vs Stripped Notebooks:
 
 - FastAI boils down common traits of data into 5 things:
 
-1. _blocks_ Kind of i/o (e.g. `ImageBlock`, `CategoryBlock`)
-2. _get_items_ Function (that returns a list)
-3. _splitter_ A validation center (randomly set aside 20% of data = `valid_pct=0.2`)
-4.
+_Format_
+`dls = DataBlock(`blocks`, `get_items`, `splitter`, `get_y`, `item_tfms`).dataloaders(path)`
+
+1. `blocks` Kind of i/o (e.g. `ImageBlock` / `CategoryBlock`)
+2. `get_items` Function (that returns a list)
+3. `splitter` A validation center (randomly set aside 20% of data = `valid_pct=0.2`)
+4. `get_y` Function that returns parent folder of a path (need to know if a label is correct - if bird or forest photo)
+5. `item_tfms` (Item transforms) How do you want to transform every photo / data piece
+
+`dls.show_batch(max_n=6)`
+
+- "Show batch" means show a batch of data as example of what you'll pass into the model. Shows you input + label (which comes from calling the `get_y` function)
+
+Examples of `splitters` and `get_y`:
+
+- docs.fast.ai -> tutorials -> DataBlock tutorials
 
 # Best Practices
 
