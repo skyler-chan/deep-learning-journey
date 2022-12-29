@@ -58,3 +58,19 @@ Full vs Stripped Notebooks:
 
 1. Download a dataset of dog, cat photos
 2. Train a model using dataset (bunch of images, emails, sounds - any data)
+
+# Q and A
+
+### What impacts training time?
+
+- Network speed
+- Usually a few minutes to train
+- Keep reading next section while model trains/work on other notebooks
+
+### What does Jupyter always print?
+
+- Prints/shows result of last line
+
+### How do we know if a model is good?
+
+- Look at Error Rate (prop of images that were incorrectly ID'd)
