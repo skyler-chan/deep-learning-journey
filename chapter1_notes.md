@@ -5,6 +5,10 @@
 1. Main site: https://course.fast.ai/Lessons/lesson1.html#resources
 2. Video: https://www.youtube.com/watch?v=8SF_h3xF3cE
 
+Summary of Chapter 1 (according to ChatGPT):
+
+Chapter 1 of the Fast AI Practical Deep Learning course introduces the concept of deep learning and how it can be applied to various fields such as computer vision, natural language processing, and speech recognition. The chapter covers the basics of neural networks, including how they are composed of layers of interconnected nodes and how they can be trained using large amounts of data and an optimization algorithm. The chapter also introduces the concept of overfitting, which is when a model performs well on the training data but poorly on new, unseen data, and ways to prevent it such as using regularization techniques. Finally, the chapter provides an overview of the tools and libraries that will be used in the course, including Python, PyTorch, and Jupyter notebooks.
+
 # Why Deep Learning - Use Cases
 
 - Natural language processing (NLP):: Answering questions; speech recognition; summarizing documents; classifying documents; finding names, dates, etc. in documents; searching for articles mentioning a concept
@@ -33,6 +37,24 @@
 6. Activation rule for combining inputs impinging on a unit, w current state of unit product an output for it
 7. Learning rule - patterns of connectivity modified by experience
 8. Environment - that system must operate within
+
+# What is DL?
+
+- Subfield of ML, train artificial NNs on huge amounts of data
+- NNs are types of ML models, composed of nodes, each node == 1 unit of computation
+- Nodes connected by weights - representing strength between nodes
+
+- During training process, NN is fed a huge amount of data
+- Weights adjusted to minimize error between predicted output and true output, done through an optimization algo (e.g. stochastic gradient descent: iteratively adjusts weights to minimize error)
+
+- Overfitting: when model performs well on training data, but poorly on new, unseen data.
+  -- Occurs when model has too many parameters, too complex, which causes it to fit the training data too closely.
+  -- To prevent overfitting, we use regularization techniques, e.g. adding a penalty to loss function, or dropout - randomly removes nodes from model during training.
+
+- How do we find the sweet spot b/w over/underfitting?
+  -- This is the "bias-variance tradeoff"
+
+---
 
 # How to learn DL
 
@@ -107,6 +129,8 @@ _Format_
 Examples of `splitters` and `get_y`:
 
 - docs.fast.ai -> tutorials -> DataBlock tutorials
+
+### How do we find the sweet spot between
 
 # Best Practices
 
